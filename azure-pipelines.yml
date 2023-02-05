@@ -1,10 +1,7 @@
 trigger:
 - '*'
 
-pool:
-  vmImage: 'windows-latest'
-  demands:
-  - npm
+pool:default
 
 variables:
   buildConfiguration: 'Release'
